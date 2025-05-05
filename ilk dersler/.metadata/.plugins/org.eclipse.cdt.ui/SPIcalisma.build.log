@@ -1,0 +1,10 @@
+17:14:20 **** Incremental Build of configuration Debug for project SPIcalisma ****
+make -j8 all 
+arm-none-eabi-size  SPIcalisma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22256	     92	   2324	  24672	   6060	SPIcalisma.elf
+Finished building: default.size.stdout
+ 
+
+17:14:20 Build Finished. 0 errors, 0 warnings. (took 263ms)
+

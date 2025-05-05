@@ -1,0 +1,10 @@
+12:47:23 **** Incremental Build of configuration Debug for project LoraCalisma ****
+make -j8 all 
+arm-none-eabi-size  LoraCalisma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13916	     12	   1972	  15900	   3e1c	LoraCalisma.elf
+Finished building: default.size.stdout
+ 
+
+12:47:23 Build Finished. 0 errors, 0 warnings. (took 258ms)
+

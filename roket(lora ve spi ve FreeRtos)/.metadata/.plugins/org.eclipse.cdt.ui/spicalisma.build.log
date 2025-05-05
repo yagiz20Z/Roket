@@ -1,0 +1,28 @@
+18:53:47 **** Incremental Build of configuration Debug for project spicalisma ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:26:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:76:11: warning: implicit declaration of function 'LoRa_setup'; did you mean 'LoRa_setOCP'? [-Wimplicit-function-declaration]
+   76 |           LoRa_setup();
+      |           ^~~~~~~~~~
+      |           LoRa_setOCP
+../Core/Src/main.c:100:8: warning: conflicting types for 'LoRa_setup'; have 'void()'
+  100 |   void LoRa_setup(){
+      |        ^~~~~~~~~~
+../Core/Src/main.c:100:8: error: static declaration of 'LoRa_setup' follows non-static declaration
+../Core/Src/main.c:76:11: note: previous implicit declaration of 'LoRa_setup' with type 'void()'
+   76 |           LoRa_setup();
+      |           ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:100:8: warning: 'LoRa_setup' defined but not used [-Wunused-function]
+  100 |   void LoRa_setup(){
+      |        ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+18:53:48 Build Failed. 2 errors, 4 warnings. (took 1s.416ms)
+

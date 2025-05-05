@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;bmp180/Core/Src/bmp180.c&apos; to &apos;bmp180Hazır.c&apos;" description="Rename resource &apos;bmp180.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/bmp180.c" name="bmp180Hazır.c" stamp="1742221283369" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;bmp180/Core/Src/bmp180&apos; to &apos;bmp180.c&apos;" description="Rename resource &apos;bmp180&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/bmp180" name="bmp180.c" stamp="1742221301738" updateReferences="true"/>
+</session>

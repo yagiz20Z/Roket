@@ -1,0 +1,10 @@
+11:30:25 **** Build of configuration Debug for project LedYakmaca ****
+make -j8 all 
+arm-none-eabi-size  LedYakmaca.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8656	     12	   1644	  10312	   2848	LedYakmaca.elf
+Finished building: default.size.stdout
+ 
+
+11:30:25 Build Finished. 0 errors, 0 warnings. (took 256ms)
+

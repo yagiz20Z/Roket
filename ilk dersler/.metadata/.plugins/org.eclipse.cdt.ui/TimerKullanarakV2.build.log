@@ -1,0 +1,55 @@
+21:42:46 **** Incremental Build of configuration Debug for project TimerKullanarakV2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:94:5: warning: 'main' is normally a non-static function [-Wmain]
+   94 | int main(void)
+      |     ^~~~
+../Core/Src/main.c:219:13: error: invalid storage class for function 'MX_TIM2_Init'
+  219 | static void MX_TIM2_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:264:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  264 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:297:13: error: invalid storage class for function 'MX_GPIO_Init'
+  297 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:346:1: error: expected declaration or statement at end of input
+  346 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:53:13: warning: 'MX_GPIO_Init' used but never defined
+   53 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:54:13: warning: 'MX_USART2_UART_Init' used but never defined
+   54 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:55:13: warning: 'MX_TIM2_Init' used but never defined
+   55 | static void MX_TIM2_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:365: warning: control reaches end of non-void function [-Wreturn-type]
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:337:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  337 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:297:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  297 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:264:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  264 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:219:13: warning: 'MX_TIM2_Init' defined but not used [-Wunused-function]
+  219 | static void MX_TIM2_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:171:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  171 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:94:5: warning: 'main' defined but not used [-Wunused-function]
+   94 | int main(void)
+      |     ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+21:42:46 Build Failed. 5 errors, 11 warnings. (took 382ms)
+

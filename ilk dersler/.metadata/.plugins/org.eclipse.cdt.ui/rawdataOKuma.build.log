@@ -1,0 +1,10 @@
+15:47:42 **** Incremental Build of configuration Debug for project rawdataOKuma ****
+make -j8 all 
+arm-none-eabi-size  rawdataOKuma.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9296	     12	   1724	  11032	   2b18	rawdataOKuma.elf
+Finished building: default.size.stdout
+ 
+
+15:47:42 Build Finished. 0 errors, 0 warnings. (took 261ms)
+

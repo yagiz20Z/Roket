@@ -1,0 +1,20 @@
+/*
+ * bmp180.h
+ *
+ *  Created on: Apr 14, 2025
+ *      Author: Ali Yagiz UZ
+ */
+
+#ifndef INC_BMP180_H_
+#define INC_BMP180_H_
+
+#include <stdio.h>
+
+
+#define PreTemp 0xF6
+#define altitude 0xF4
+
+
+
+
+#endif /* INC_BMP180_H_ */
