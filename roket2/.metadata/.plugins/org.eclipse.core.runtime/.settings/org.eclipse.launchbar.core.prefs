@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bastan Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bmp180 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uartdeneme Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LoraCalisma Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWMders Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ServoDers Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TimerDeneme Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TimerKullanarakV2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:interrupt uart Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:interruptDeneme Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:spicalisma Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timerKullanarakDelayV2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timerKullarakDelay Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPIcalisma Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWMders\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWMders\ Debug/activeLaunchTarget=null\:---
