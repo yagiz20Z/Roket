@@ -1795,3 +1795,33 @@ org.osgi.service.prefs.BackingStoreException: Exception occurred while saving pr
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-05-15 00:56:29.037
 !MESSAGE Indexed 'bastan(ilk header)' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-05-15 01:35:45.400 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-15 01:35:51.251
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-15 01:35:51.252
+!MESSAGE Log4j2 initialized with config file C:\Users\Ali Yağız UZ\STM32CubeIDE\depo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-15 01:35:58.933
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-05-15 01:38:44.076 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-15 01:38:48.666
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-15 01:38:48.667
+!MESSAGE Log4j2 initialized with config file C:\Users\Ali Yağız UZ\STM32CubeIDE\depo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-15 01:38:55.908
+!MESSAGE Started RMI Server, listening on port 41337
