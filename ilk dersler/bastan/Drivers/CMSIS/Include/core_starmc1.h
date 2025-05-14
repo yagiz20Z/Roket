@@ -1,3 +1,29 @@
+/*
+*
+*        ^
+*       /^\\
+*      /___\\         YILDIZ ROKET TAKIMI
+*     |=   =|        
+*     |     |        Olusturulma Tarihi: 2025-04-14 17:40:33
+*     |     |        Tarih: 2025-05-15 00:54:29
+*     |     |
+*    /|##!##|\\
+*   / |##!##| \\
+*  /  |##!##|  \\
+* |  / ^ | ^ \  |                                       YILDIZDAN
+* | /  ( | )  \ |
+* |/   ( | )   \|                                                                YILDIZLARA
+*     ((   ))                                                                       
+*    ((  :  ))
+*    ((  :  ))
+*     ((   ))
+*      (( ))                     
+*       ( )
+*        .
+*        .
+*        .
+*/
+
 /**************************************************************************//**
  * @file     core_starmc1.h
  * @brief    CMSIS ArmChina STAR-MC1 Core Peripheral Access Layer Header File
