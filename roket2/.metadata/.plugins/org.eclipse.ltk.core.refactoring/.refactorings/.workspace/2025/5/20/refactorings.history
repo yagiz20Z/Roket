@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;w5500iile/Core/Src/w5500.c&apos;" deleteContents="false" description="Delete resource &apos;w5500iile/Core/Src/w5500.c&apos;" element1="/w5500iile/Core/Src/w5500.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1747062925503"/>&#x0A;<refactoring comment="Delete resource &apos;w5500iile/Core/Inc/w5500.h&apos;" deleteContents="false" description="Delete resource &apos;w5500iile/Core/Inc/w5500.h&apos;" element1="/w5500iile/Core/Inc/w5500.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1747062928529"/>
-</session>
