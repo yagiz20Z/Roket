@@ -1,0 +1,13 @@
+/*
+ * w5500_spi.c
+ *
+ *  Created on: May 17, 2025
+ *      Author: Ali Yagiz UZ
+ */
+
+#ifndef SRC_W5500_W5500_SPI_C_
+#define SRC_W5500_W5500_SPI_C_
+
+
+
+#endif /* SRC_W5500_W5500_SPI_C_ */

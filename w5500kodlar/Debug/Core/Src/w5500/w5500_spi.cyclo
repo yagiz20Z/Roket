@@ -1,0 +1,11 @@
+../Core/Src/w5500/w5500_spi.c:7:9:SPIReadWrite	3
+../Core/Src/w5500/w5500_spi.c:22:6:wizchip_select	1
+../Core/Src/w5500/w5500_spi.c:27:6:wizchip_deselect	1
+../Core/Src/w5500/w5500_spi.c:32:9:wizchip_read	1
+../Core/Src/w5500/w5500_spi.c:39:6:wizchip_write	1
+../Core/Src/w5500/w5500_spi.c:44:6:wizchip_readburst	2
+../Core/Src/w5500/w5500_spi.c:53:6:wizchip_writeburst	2
+../Core/Src/w5500/w5500_spi.c:62:6:W5500IOInit	1
+../Core/Src/w5500/w5500_spi.c:80:6:w5500_enter_critical	1
+../Core/Src/w5500/w5500_spi.c:85:6:w5500_exit_critical	1
+../Core/Src/w5500/w5500_spi.c:90:6:W5500Init	4

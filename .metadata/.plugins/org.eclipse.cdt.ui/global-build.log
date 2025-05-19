@@ -1,0 +1,61 @@
+19:39:34 **** Incremental Build of configuration Debug for project w5500kodlar ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Core/Src/w5500 -I../Core/Src/w5500/W5500 -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:61:3: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   61 |   sprintf(msg, MAC_MSG, netInfo.mac[0], netInfo.mac[1], netInfo.mac[2], netInfo.mac[3], netInfo.mac[4], netInfo.mac[5]);\
+      |   ^~~~~~~
+../Core/Src/main.c:179:7: note: in expansion of macro 'PRINT_NETINFO'
+  179 |       PRINT_NETINFO(netInfo);
+      |       ^~~~~~~~~~~~~
+../Core/Src/main.c:31:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   30 | #include <string.h>
+  +++ |+#include <stdio.h>
+   31 | /* USER CODE END Includes */
+../Core/Src/main.c:61:3: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   61 |   sprintf(msg, MAC_MSG, netInfo.mac[0], netInfo.mac[1], netInfo.mac[2], netInfo.mac[3], netInfo.mac[4], netInfo.mac[5]);\
+      |   ^~~~~~~
+../Core/Src/main.c:179:7: note: in expansion of macro 'PRINT_NETINFO'
+  179 |       PRINT_NETINFO(netInfo);
+      |       ^~~~~~~~~~~~~
+../Core/Src/main.c:61:3: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   61 |   sprintf(msg, MAC_MSG, netInfo.mac[0], netInfo.mac[1], netInfo.mac[2], netInfo.mac[3], netInfo.mac[4], netInfo.mac[5]);\
+      |   ^~~~~~~
+../Core/Src/main.c:179:7: note: in expansion of macro 'PRINT_NETINFO'
+  179 |       PRINT_NETINFO(netInfo);
+      |       ^~~~~~~~~~~~~
+../Core/Src/main.c:203:22: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  203 |                   if(RSR_len = getSn_RX_RSR(s)>0)
+      |                      ^~~~~~~
+../Core/Src/main.c:143:26: warning: unused variable 'deneme' [-Wunused-variable]
+  143 |                 uint16_t deneme=0;
+      |                          ^~~~~~
+In file included from ../Core/Src/main.c:28:
+../Core/Src/w5500/socket.h: At top level:
+../Core/Src/w5500/socket.h:314:15: warning: 'connect_IO_6' declared 'static' but never defined [-Wunused-function]
+  314 | static int8_t connect_IO_6(uint8_t sn, uint8_t * addr, uint16_t port, uint8_t addrlen );
+      |               ^~~~~~~~~~~~
+../Core/Src/w5500/socket.h:404:16: warning: 'sendto_IO_6' declared 'static' but never defined [-Wunused-function]
+  404 | static int32_t sendto_IO_6(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t port, uint8_t addrlen);
+      |                ^~~~~~~~~~~
+../Core/Src/w5500/socket.h:439:16: warning: 'recvfrom_IO_6' declared 'static' but never defined [-Wunused-function]
+  439 | static int32_t recvfrom_IO_6(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t *port ,uint8_t *addrlen);
+      |                ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "w5500kodlar.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Ali Yağız UZ\STM32CubeIDE\depo\w5500kodlar\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="w5500kodlar.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: w5500kodlar.elf
+ 
+arm-none-eabi-size  w5500kodlar.elf 
+arm-none-eabi-objdump -h -S w5500kodlar.elf  > "w5500kodlar.list"
+   text	   data	    bss	    dec	    hex	filename
+  20916	    160	   2192	  23268	   5ae4	w5500kodlar.elf
+Finished building: default.size.stdout
+ 
+Finished building: w5500kodlar.list
+ 
+19:39:50 **** Incremental Build of configuration Debug for project w5500kodlar ****
+make -j8 all 
+arm-none-eabi-size  w5500kodlar.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20916	    160	   2192	  23268	   5ae4	w5500kodlar.elf
+Finished building: default.size.stdout
+ 

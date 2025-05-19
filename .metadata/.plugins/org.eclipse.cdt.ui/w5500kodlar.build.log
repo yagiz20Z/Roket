@@ -1,0 +1,10 @@
+19:39:50 **** Incremental Build of configuration Debug for project w5500kodlar ****
+make -j8 all 
+arm-none-eabi-size  w5500kodlar.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20916	    160	   2192	  23268	   5ae4	w5500kodlar.elf
+Finished building: default.size.stdout
+ 
+
+19:39:51 Build Finished. 0 errors, 0 warnings. (took 495ms)
+
